@@ -9,3 +9,6 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+$('.carousel').carousel({
+    interval: 2000
+  })
