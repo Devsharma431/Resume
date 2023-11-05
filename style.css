@@ -1,9 +1,15 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 body{
     background: linear-gradient(to bottom, rgb(227, 229, 231), rgb(110, 236, 120));
     font-family: Arial, sans-serif;
 
 
 }
+
 .bgimage {
     height:100vh;
     background: url('images/6.jpg');
