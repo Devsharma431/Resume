@@ -1,13 +1,16 @@
+.col-lg-8{
+    color: beige;
+}
+.col-md-6{
+    color: beige;
+}
 header{
     position: fixed;
     top: 0;
     width: 100%;
 }
 body{
-    background: linear-gradient(to bottom, rgb(227, 227, 231)gb(110, 236, 120));
-    font-family: Arial, sans-serif;
-
-
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -53,4 +56,107 @@ body{
 }
 .navbarScroll.navbarDark {
     background-color: black;
+}
+.footer {
+    background-color: rgb(3, 3, 19);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-icons li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .social-icons li:hover {
+    transform: scale(1.2);
+  }
+
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 20px;body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #0074d9;
+  }
+  
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #0074d9;
+  }
+  .service {
+    background-color: #141414;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .service h2 {
+    font-size: 24px;
+    color: #0074d9;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+  }
+#service{
+    text-align: center;
+    color: darkorange;
+    
 }
