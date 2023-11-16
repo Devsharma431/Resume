@@ -166,3 +166,6 @@ body{
 .card-text{
   color: beige;
 }
+.card-body{
+  background-color: rgb(61, 66, 66);
+}
